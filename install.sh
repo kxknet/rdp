@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "This RDP installer by @kxkwork"
+echo "Work correctly only clean Ubuntu-18.04-amd64 image!!!"
 cd /root/
 wget https://raw.githubusercontent.com/kxknet/rdp/main/sources.list
 mv /root/sources.list /etc/apt/sources.list
