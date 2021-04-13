@@ -6,6 +6,7 @@ wget https://raw.githubusercontent.com/kxknet/rdp/main/sources.list
 mv /root/sources.list /etc/apt/sources.list
 apt update -y
 apt install -y lxde
+apt install -y fail2ban
 apt install -y xrdp
 adduser xrdp ssl-cert
 wget https://raw.githubusercontent.com/kxknet/rdp/main/startwm.sh
